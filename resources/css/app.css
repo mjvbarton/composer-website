@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    
+    #language-select, a > img{
+        @apply grayscale hover:filter-none transition-all ease-in duration-200;
+    }
+
+    #language-select, a[aria-checked=true] > img{
+        @apply filter-none;
+    }
+
+    
+}
