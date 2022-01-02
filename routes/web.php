@@ -23,3 +23,6 @@ Route::view('/biography', 'previews.biography')->name('biography');
 Route::view('/news', 'previews.news')->name('news');
 Route::view('/contact', 'previews.contact')->name('contact');
 
+Route::view('/privacy-policy', 'previews.policies')->name('privacy-policy');
+Route::view('/cookie-policy', 'previews.policies')->name('cookie-policy');
+

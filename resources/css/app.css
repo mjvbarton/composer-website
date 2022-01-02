@@ -12,5 +12,11 @@
         @apply filter-none;
     }
 
+    #biography{
+        background-image: linear-gradient(black, black), url('../img/biography/biography-background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;        
+        background-blend-mode: saturation;
+    }
     
 }
