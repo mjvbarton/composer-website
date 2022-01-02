@@ -18,5 +18,12 @@
         background-repeat: no-repeat;        
         background-blend-mode: saturation;
     }
+
+    #contact{
+        background-image: linear-gradient(black, black), url('../img/contact/contact-background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;        
+        background-blend-mode: saturation;
+    }
     
 }
