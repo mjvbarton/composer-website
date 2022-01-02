@@ -40,25 +40,25 @@
     <ul id="language-select" class="flex space-x-2 items-center" role="radiogroup">
         <li role="none">
             <a href="#" lang="cs" title="Česky" data-toogle="tooltip" data-placement="bottom" role="radio" class="group" aria-checked="{{ App::getLocale() == 'cs' ? "true" : "false" }}">
-                <img src="{{ asset('img/language/cs.png') }}" alt="Czech flag" width="24" height="24">
+                <img src="{{ asset('images/language/cs.png') }}" alt="Czech flag" width="24" height="24">
                 <bdi class="hidden">Česky</bdi>
             </a>
         </li>
         <li role="none">
             <a href="#" lang="en" title="English" data-toogle="tooltip" data-placement="bottom" role="radio" class="group" aria-checked="{{ App::getLocale() == 'en' ? "true" : "false" }}">
-                <img src="{{ asset('img/language/en.png') }}" alt="English flag" width="24" height="24">
+                <img src="{{ asset('images/language/en.png') }}" alt="English flag" width="24" height="24">
                 <bdi class="hidden">English</bdi>
             </a>
         </li>
         <li role="none">
             <a href="#" lang="fr" title="Français" data-toogle="tooltip" data-placement="bottom" role="radio" class="group" aria-checked="{{ App::getLocale() == 'fr' ? "true" : "false" }}">
-                <img src="{{ asset('img/language/fr.png') }}" alt="French flag" width="24" height="24">
+                <img src="{{ asset('images/language/fr.png') }}" alt="French flag" width="24" height="24">
                 <bdi class="hidden">Français</bdi>
             </a>
         </li>
         <li role="none">
             <a href="#" lang="de" title="Deutsch" data-toogle="tooltip" data-placement="bottom" role="radio" class="group" aria-checked="{{ App::getLocale() == 'de' ? "true" : "false" }}">
-                <img src="{{ asset('img/language/de.png') }}" alt="German flag" width="24" height="24">
+                <img src="{{ asset('images/language/de.png') }}" alt="German flag" width="24" height="24">
                 <bdi class="hidden">Deutsch</bdi>
             </a>
         </li>         

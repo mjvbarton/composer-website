@@ -25,9 +25,8 @@
             <div class="relative bg-white top-40 w-min px-20 py-5 mx-auto z-10">
                 <h1 class="text-4xl uppercase font-display tracking-widest text-lime-600">{{ __('Biography')}}</h1>
             </div>
-            <div class="relative bg-white top-60 z-10 px-32 py-10 mx-auto w-2/3 flex space-x-20">
-                <figure>
-                    <img src="{{ asset('img/biography/profile-photo.jpg') }}" alt="profile photo">
+                <figure class="basis-1/3">
+                    <img src="{{ asset('images/biography/profile-photo.jpg') }}" alt="profile photo">
                 </figure>
                 <section class="prose">
                     <h2 class="uppercase font-display font-thin text-2xl text-lime-700">Matěj Josef Václav Bartoň (*1999)</h2>                    
