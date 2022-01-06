@@ -10,27 +10,27 @@
     <!-- Main Menu -->
     <ul id="main-menu" class="flex space-x-10 items-center my-auto" role="menubar">
         <li role="none">
-            <a class="px-2 py-5 hover:border-b-2 hover:border-red-700 focus:border-b-2 focus:border-red-700 outline-none transition-all ease-in duration-200 {{ $activeMenu == 'homepage' ? " text-red-700 border-b-2 border-red-700" : "" }}" href="{{ route('homepage') }}" role="menuitem" tabindex="0">
+            <a class="px-2 py-5 hover:border-b-2 hover:border-red-700 focus:border-b-2 focus:border-red-700 outline-none active:text-red-700 active:border-b-2 active:border-red-700 transition-all ease-in duration-200 {{ $activeMenu == 'homepage' ? " text-red-700 border-b-2 border-red-700" : "" }}" href="{{ route('homepage') }}" role="menuitem" tabindex="0">
                 {{ __('Home') }}
             </a>
         </li>
         <li role="none">
-            <a class="px-2 py-5 hover:border-b-2 hover:border-cyan-500 focus:border-b-2 focus:border-cyan-500 outline-none transition-all ease-in duration-200 {{ $activeMenu == 'artwork' ? " text-cyan-500 border-b-2 border-cyan-500" : "" }}" href="{{ route('artwork') }}" role="menuitem" tabindex="0">
+            <a class="px-2 py-5 hover:border-b-2 hover:border-cyan-500 focus:border-b-2 focus:border-cyan-500 outline-none active:text-cyan-500 active:border-b-2 active:border-cyan-500 transition-all ease-in duration-200 {{ $activeMenu == 'artwork' ? " text-cyan-500 border-b-2 border-cyan-500" : "" }}" href="{{ route('artwork') }}" role="menuitem" tabindex="0">
                 {{ __('Artwork') }}
             </a>
         </li>
         <li role="none">
-            <a class="px-2 py-5 hover:border-b-2 hover:border-lime-600 focus:border-b-2 focus:border-lime-600 outline-none transition-all ease-in duration-200 {{ $activeMenu == 'biography' ? " text-lime-600 border-b-2 border-lime-600" : "" }}" href="{{ route('biography') }}" role="menuitem" tabindex="0">
+            <a class="px-2 py-5 hover:border-b-2 hover:border-lime-600 focus:border-b-2 focus:border-lime-600 outline-none active:text-lime-600 active:border-b-2 active:border-lime-600 transition-all ease-in duration-200 {{ $activeMenu == 'biography' ? " text-lime-600 border-b-2 border-lime-600" : "" }}" href="{{ route('biography') }}" role="menuitem" tabindex="0">
                 {{ __('Biography') }}
             </a>
         </li>
         <li role="none">
-            <a class="px-2 py-5 hover:border-b-2 hover:border-orange-500 focus:border-b-2 focus:border-orange-500 outline-none transition-all ease-in duration-200 {{ $activeMenu == 'news' ? " text-orange-500 border-b-2 border-orange-500" : "" }}" href="{{ route('news') }}" role="menuitem" tabindex="0">
+            <a class="px-2 py-5 hover:border-b-2 hover:border-orange-500 focus:border-b-2 focus:border-orange-500 outline-none active:text-orange-500 active:border-b-2 active:border-orange-500 transition-all ease-in duration-200 {{ $activeMenu == 'news' ? " text-orange-500 border-b-2 border-orange-500" : "" }}" href="{{ route('news') }}" role="menuitem" tabindex="0">
                 {{ __('News') }}
             </a>
         </li>
         <li role="none">
-            <a class="px-2 py-5 hover:border-b-2 hover:border-pink-500 focus:border-b-2 focus:border-pink-500 outline-none transition-all ease-in duration-200 {{ $activeMenu == 'contact' ? " text-pink-500 border-b-2 border-pink-500" : "" }}" href="{{ route('contact') }}" role="menuitem" tabindex="0">
+            <a class="px-2 py-5 hover:border-b-2 hover:border-pink-500 focus:border-b-2 focus:border-pink-500 outline-none active:text-pink-500 active:border-b-2 active:border-pink-500 transition-all ease-in duration-200 {{ $activeMenu == 'contact' ? " text-pink-500 border-b-2 border-pink-500" : "" }}" href="{{ route('contact') }}" role="menuitem" tabindex="0">
                 {{ __('Contact') }}
             </a>
         </li>
