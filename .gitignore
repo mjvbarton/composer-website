@@ -1,5 +1,7 @@
 /node_modules
 /vendor
+js/*
+!js/.gitkeep
 .env
 mix-manifest.json
 style.css
