@@ -1,17 +1,24 @@
 const mix = require('laravel-mix');
 const tailwindcss = require('tailwindcss');
 
-// Style configuration
-mix.sass('sass/style.scss', 'style.css')
+/**
+ * Style configuration
+ */
+mix.sass('src/sass/style.scss', 'style.css')
 .options({
     processCssUrls: false,
     postCss: [tailwindcss('tailwind.config.js')]
-});
+})
+.minify('style.css', 'style.min.css');
 
-// JS Packing
-mix.js('src/js/app.js', 'js/app.js');
-mix.js('src/js/app.js', 'js/app.min.js').minify();
+/**
+ * JS Configuration
+ */
+mix.js('src/js/app.js', 'js/app.js')
+.minify('js/app.js', 'js/app.min.js');
 
-// Browser sync config
+/**
+ * BrowserSync
+ */
 mix.browserSync(process.env.MIX_BROWSERSYNC);
 mix.disableSuccessNotifications();

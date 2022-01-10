@@ -141,7 +141,7 @@ function composer_website_scripts() {
 	wp_enqueue_style( 'composer-website-style', get_stylesheet_uri(), array(), COMPOSER_WEBSITE_VERSION );
 	wp_style_add_data( 'composer-website-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'composer-website-navigation', get_template_directory_uri() . '/js/navigation.js', array(), COMPOSER_WEBSITE_VERSION, true );
+	wp_enqueue_script( 'composer-website-scripts', get_template_directory_uri() . '/js/app.js', array(), COMPOSER_WEBSITE_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

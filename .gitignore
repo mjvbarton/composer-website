@@ -5,3 +5,4 @@ js/*
 .env
 mix-manifest.json
 style.css
+style.min.css
