@@ -1,0 +1,30 @@
+/*!
+Theme Name: Composer\`s Website
+Theme URI: http://underscores.me/
+Author: mjvbarton
+Author URI: https://github.com/mjvbarton
+Description: Wordpress theme for personal composer page.
+Version: 1.0.0
+Tested up to: 8.0
+Requires PHP: 7.4
+License: TODO: Add proper license
+License URI: TODO: Add proper license
+Text Domain: composer-website
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Composer\'s Website is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+TODO: Remove this as it would not be used
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
