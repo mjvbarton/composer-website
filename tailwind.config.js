@@ -1,7 +1,19 @@
 module.exports = {
-  content: [],
+  content: [
+    './resources/**/*.blade.php',
+    './resources/**/*.js',
+    './resources/**/*.vue'
+  ],
   theme: {
-    extend: {},
+    extend: {            
+      fontFamily:{
+        'sans' : ['Open Sans', 'ui-sans-serif', 'sans-serif'],
+        'display' : ['Nunito', 'ui-sans-serif', 'sans-serif']
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),    
+    require('@tailwindcss/aspect-ratio')
+  ],
 }
