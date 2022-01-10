@@ -8,3 +8,4 @@ mix.sass('sass/style.scss', 'style.css')
 });
 
 mix.browserSync(process.env.MIX_BROWSERSYNC);
+mix.disableSuccessNotifications();
